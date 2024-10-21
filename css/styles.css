@@ -1,0 +1,178 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav .logo {
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+nav .logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .nav-links {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+nav .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+/* Sections */
+main section {
+    padding: 60px 20px;
+}
+
+main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-item {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-item h2 {
+    margin-bottom: 10px;
+}
+
+/* Blog */
+.post-list .post-item {
+    margin-bottom: 30px;
+}
+
+.post-item h2 {
+    margin-bottom: 5px;
+}
+
+.post-date {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin-top: 20px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.contact button {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav .nav-links {
+        display: none; /* Hide navigation links */
+    }
+
+    /* Mobile Navigation Styles */
+    /* ... */
+}
+
+@media (max-width: 600px) {
+    .project-item {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+}
+
